@@ -27,11 +27,11 @@ pip install -r requirements.txt
 预训练权重在[这里](https://github.com/hsfzxjy/models.storage/releases/download/HRNet-OCR/hrnet_ocr_cs_8162_torch11.pth)下载
 (权重需要放在`./pretrained_models`文件夹里面）
 
-夜间语义分割标签来自于[这个](https://github.com/XiaRho/CMDA)工程
+夜间语义分割标签来自于[这个](https://github.com/XiaRho/CMDA)工程：
 [下载V1版本](https://drive.google.com/file/d/1LWinkZXUWKBzl946wxhLKaHbOOIP-hRi/view?usp=sharing)
 [下载V2版本](https://drive.google.com/file/d/1BgYqQj97TBNJuqVnrbQcfKL3jjwQp5h2/view?usp=sharing)
 
-其余语义分割标签需要在[官网](https://dsec.ifi.uzh.ch/dsec-detection/)下载：
+其余语义分割标签需要在[DSEC官网](https://dsec.ifi.uzh.ch/dsec-detection/)下载
 
 ## 运行前的准备
 * Ids格式标签放data/cityscapes/gtFine里面，重建图片放data/cityscapes/leftImg8bit里面。
